@@ -35,7 +35,7 @@ The lab is one Kali Linux machine on a private VirtualBox NAT network. It has a 
 | Hypervisor | Oracle VirtualBox |
 | Attacker VM | `kali-NW`, Kali Linux 2026.1 |
 | Memory | 2048 MB |
-| Network | NAT Network `NatNetwork`, 10.0.0.0/24, DHCP on |
+| Network | NAT Network `NatNetwork`, 10.0.0.0/24 |
 | Kali address | 10.0.0.2/24, gateway 10.0.0.1 |
 | Network adapter | Intel PRO/1000 MT Desktop, promiscuous mode: Allow All |
 | Shared folder | Host Downloads, full access, auto-mount |
