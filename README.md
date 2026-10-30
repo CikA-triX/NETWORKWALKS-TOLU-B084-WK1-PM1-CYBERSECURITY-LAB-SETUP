@@ -133,17 +133,13 @@ sudo nmcli connection up "Wired connection 1"
 
 5. Pointed the DNS server at the network gateway (10.0.0.1).
 
-After that, the ping tests worked. One tip: the connection name may not be "Wired connection 1" on your machine, so run `nmcli connection show` first and use the name it prints.
+After that, the ping tests worked.
 
 ## What I learned
 
 - A NAT Network keeps VMs on a private network where they can reach each other and still get internet access, which a plain NAT adapter doesn't do.
 - A static IP is only half the job. Without a working gateway and DNS, the machine has an address but no internet.
 - A snapshot taken at the right moment makes it much cheaper to experiment.
-
-## Safety note
-
-This lab runs on my own laptop in an isolated network. I only test machines I own or have written permission to test.
 
 ## Next step
 
