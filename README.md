@@ -10,7 +10,7 @@
 
 ## What this project is
 
-This is my Week 1 project for the Networkwalks internship: a small, isolated lab on my own laptop where I can practise security tools without touching anything I don't own.
+This is my Week 1 project for the Networkwalks internship: a small, isolated lab on my own laptop where I can practise security tools.
 
 The lab is one Kali Linux machine on a private VirtualBox NAT network. It has a fixed address, a shared folder and shared clipboard with my host, and working internet access. I can add more machines to the same network later.
 
@@ -20,7 +20,7 @@ The lab is one Kali Linux machine on a private VirtualBox NAT network. It has a 
 |---|---|
 | VirtualBox as the base | VirtualBox was already installed on my laptop (version in Figure 1) |
 | Kali Linux as the attacking machine | Kali Linux 2026.1, in a VM called `kali-NW` |
-| NAT Network in 10.0.0.0/24 | Created `NatNetwork` as 10.0.0.0/24 with DHCP enabled |
+| NAT Network in 10.0.0.0/24 | Created `NatNetwork` as 10.0.0.0/24 |
 | Clipboard and drag and drop on | Set both to Bidirectional in the VM settings (Figure 6) |
 | Host Downloads folder shared | Shared with full access and auto-mount |
 | Kali IP address 10.0.0.2/24 | Set manually in NetworkManager, gateway 10.0.0.1 |
